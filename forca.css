@@ -1,0 +1,19 @@
+* {
+
+}
+
+body {
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    max-width: 1200px;
+    max-height: 1200px;
+    }
+#imagem {
+    background-image: url("../forca.gif");
+    position: absolute; 
+	left: 850px;
+	top: 170px;
+    width: 310px;
+    height: 365px;
+}
+
