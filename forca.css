@@ -3,13 +3,13 @@
 }
 
 body {
-    background-image: url("../img/background.jpg");
+    background-image: url("../playforca.github.io/background.jpg");
     background-repeat: no-repeat;
     max-width: 1200px;
     max-height: 1200px;
     }
 #imagem {
-    background-image: url("../forca.gif");
+    background-image: url("../playforca.github.io/forca.gif");
     position: absolute; 
 	left: 850px;
 	top: 170px;
