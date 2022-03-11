@@ -287,25 +287,32 @@ function comparalistas(letra){
 function carregaImagemForca(){
     switch(tentativas){
         case 5:
-            document.getElementById("imagem").style.background  = "url('./img/forca01.png')";
+            document.getElementById("imagem").style.background  = "url('./forca1.png')";
+            document.getElementById("imagem").style.backgroundRepeat = "no-repeat";
             break;
         case 4:
-            document.getElementById("imagem").style.background  = "url('./img/forca02.png')";
+            document.getElementById("imagem").style.background  = "url('./forca2.png')";
+            document.getElementById("imagem").style.backgroundRepeat = "no-repeat";
             break;
         case 3:
-            document.getElementById("imagem").style.background  = "url('./img/forca03.png')";
+            document.getElementById("imagem").style.background  = "url('./forca3.png')";
+            document.getElementById("imagem").style.backgroundRepeat = "no-repeat";
             break;
         case 2:
-            document.getElementById("imagem").style.background  = "url('./img/forca04.png')";
+            document.getElementById("imagem").style.background  = "url('./forca4.png')";
+            document.getElementById("imagem").style.backgroundRepeat = "no-repeat";
             break;
         case 1:
-            document.getElementById("imagem").style.background  = "url('./img/forca05.png')";
+            document.getElementById("imagem").style.background  = "url('./forca5.png')";
+            document.getElementById("imagem").style.backgroundRepeat = "no-repeat";
             break;
         case 0:
-            document.getElementById("imagem").style.background  = "url('./img/forca06.png')";
+            document.getElementById("imagem").style.background  = "url('./forca6.png')";
+            document.getElementById("imagem").style.backgroundRepeat = "no-repeat";
             break;
         default:
-            document.getElementById("imagem").style.background  = "url('./img/forca.png')";
+            document.getElementById("imagem").style.background = "url('./forca.gif')";
+            document.getElementById("imagem").style.backgroundRepeat = "no-repeat";
             break;
     }
 }
